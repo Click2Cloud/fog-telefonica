@@ -24,7 +24,7 @@ http_interactions:
       - c04d742037fd4d7e8f2db2ed34d11e99
       Vary:
       - X-Auth-Token
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-126a6265-3f6e-4f11-84ad-65650248ceeb
       Content-Length:
       - '297'
@@ -64,7 +64,7 @@ http_interactions:
       - Apache/2.4.7 (Ubuntu)
       Vary:
       - X-Auth-Token
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-2aa7bf50-09bb-4868-b3b5-f9b624ab0d76
       Content-Length:
       - '1271'
@@ -112,7 +112,7 @@ http_interactions:
       - 936fac5af78d4d88a470aad59fc2ff4c
       Vary:
       - X-Auth-Token
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-4856f507-c99b-4f05-87e0-77687a9f1317
       Content-Length:
       - '7407'

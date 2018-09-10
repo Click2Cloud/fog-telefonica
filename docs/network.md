@@ -1,6 +1,6 @@
 # Network (Neutron)
 
-This document explains how to get started using OpenStack Network (Neutron) with Fog. It assumes you have read the [Getting Started with Fog and OpenStack](getting_started.md) document.
+This document explains how to get started using Telefonica Network (Neutron) with Fog. It assumes you have read the [Getting Started with Fog and Telefonica](getting_started.md) document.
 
 ## Starting irb console
 
@@ -10,18 +10,18 @@ irb
 ```
 Once `irb` has launched you need to require the Fog library by executing:
 ```
-require 'fog/openstack'
+require 'fog/telefonica'
 ```
 ## Create Service
 
 Next, create a connection to the Network Service:
 ```
-service = Fog::Network::OpenStack.new(
-	:openstack_auth_url     => 'http://KEYSTONE_HOST:KEYSTONE_PORT/v3/auth/tokens', # OpenStack Keystone v3 endpoint
-	:openstack_username     => OPEN_STACK_USER,                                     # Your OpenStack Username
-	:openstack_domain_name  => OPEN_STACK_DOMAIN,                                   # Your OpenStack Domain name
-	:openstack_project_name => OPEN_STACK_PROJECT,                                  # Your OpenStack Project name
-	:openstack_api_key      => OPEN_STACK_PASSWORD,                                 # Your OpenStack Password
+service = Fog::Network::Telefonica.new(
+	:telefonica_auth_url     => 'http://KEYSTONE_HOST:KEYSTONE_PORT/v3/auth/tokens', # Telefonica Keystone v3 endpoint
+	:telefonica_username     => OPEN_STACK_USER,                                     # Your Telefonica Username
+	:telefonica_domain_name  => OPEN_STACK_DOMAIN,                                   # Your Telefonica Domain name
+	:telefonica_project_name => OPEN_STACK_PROJECT,                                  # Your Telefonica Project name
+	:telefonica_api_key      => OPEN_STACK_PASSWORD,                                 # Your Telefonica Password
 	:connection_options     => {}                                                   # Optional
 )
 ```
@@ -34,7 +34,7 @@ Fog provides both a **model** and **request** abstraction. The request abstracti
 
 ### Request Layer
 
-The request abstraction maps directly to the [OpenStack Network API](http://developer.openstack.org/api-ref-networking-v2.html). It provides the most efficient interface to the OpenStack Network service.
+The request abstraction maps directly to the [Telefonica Network API](http://developer.telefonica.org/api-ref-networking-v2.html). It provides the most efficient interface to the Telefonica Network service.
 
 To see a list of requests supported by the service:
 ```
@@ -104,7 +104,7 @@ This will return:
   {"id"=>"e624a36d-762b-481f-9b50-4154ceb78bbb", "name"=>"network_1", "subnets"=>["2e4ec6a4-0150-47f5-8523-e899ac03026e"], "shared"=>false, "status"=>"ACTIVE", "admin_state_up"=>true, "tenant_id"=>"f8b26a6032bc47718a7702233ac708b9"}]
 }
 ```
-To learn more about Network request methods refer to [rdoc](http://www.rubydoc.info/gems/fog-openstack/Fog/Network/OpenStack/Real). To learn more about Excon refer to [Excon GitHub repo](https://github.com/geemus/excon).
+To learn more about Network request methods refer to [rdoc](http://www.rubydoc.info/gems/fog-telefonica/Fog/Network/Telefonica/Real). To learn more about Excon refer to [Excon GitHub repo](https://github.com/geemus/excon).
 
 ### Model Layer
 
@@ -180,16 +180,16 @@ To request a collection of networks:
 ```
 networks = service.networks
 ```
-This returns in the following `Fog::OpenStack::Model`:
+This returns in the following `Fog::Telefonica::Model`:
 ```
-<Fog::Network::OpenStack::Networks
+<Fog::Network::Telefonica::Networks
   filters={}
-  [<Fog::Network::OpenStack::Network
+  [<Fog::Network::Telefonica::Network
       id="f9c54735-a230-443e-9379-b87f741cc1b1",
       name="Public",
-      subnets=        <Fog::Network::OpenStack::Subnets
+      subnets=        <Fog::Network::Telefonica::Subnets
         filters={}
-        [<Fog::Network::OpenStack::Subnet ... >]
+        [<Fog::Network::Telefonica::Subnet ... >]
       >,
       shared=true,
       status="ACTIVE",
@@ -200,10 +200,10 @@ This returns in the following `Fog::OpenStack::Model`:
       provider_segmentation_id=nil,
       router_external=false
     >,
-                <Fog::Network::OpenStack::Network
+                <Fog::Network::Telefonica::Network
       id="e624a36d-762b-481f-9b50-4154ceb78bbb",
       name="network_1",
-      subnets=        <Fog::Network::OpenStack::Subnets
+      subnets=        <Fog::Network::Telefonica::Subnets
         filters={}
         []
       >,
@@ -230,9 +230,9 @@ This will return:
 ```
 ## Examples
 
-Example code using Network can be found [here](https://github.com/fog/fog-openstack/tree/master/lib/fog/openstack/examples/network).
+Example code using Network can be found [here](https://github.com/fog/fog-telefonica/tree/master/lib/fog/telefonica/examples/network).
 
 ## Additional Resources
 
-* [OpenStack Network API](http://developer.openstack.org/api-ref-networking-v2.html)
+* [Telefonica Network API](http://developer.telefonica.org/api-ref-networking-v2.html)
 * [more resources and feedback](common/resources.md)

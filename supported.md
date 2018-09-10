@@ -1,4 +1,4 @@
-# Supported OpenStack Projects
+# Supported Telefonica Projects
 
 ## Supported
 
@@ -29,8 +29,8 @@
 
 Feel free to submit pull requests to add support for these.
 
-* [congress](https://wiki.openstack.org/wiki/Congress) (Policy As a Service)
-* [trove](https://wiki.openstack.org/wiki/Trove) (DBaaS)
+* [congress](https://wiki.telefonica.org/wiki/Congress) (Policy As a Service)
+* [trove](https://wiki.telefonica.org/wiki/Trove) (DBaaS)
 
 ## Unsupported
 

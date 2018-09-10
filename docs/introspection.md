@@ -1,24 +1,24 @@
 # Introspection
 
 This document explains how to get started using introspection with
-fog-openstack.
+fog-telefonica.
 
 Please also refer to the
-[Getting Started with Fog and the OpenStack](getting_started.md) document.
+[Getting Started with Fog and the Telefonica](getting_started.md) document.
 
-Introspection service is implemented by the OpenStack ironic-inspector project.
+Introspection service is implemented by the Telefonica ironic-inspector project.
 Introspection is strongly related to the Baremetal service (Ironic project).
 Effectively, Instrospection communicates and operates on nodes defined by the
 Baremetal layer (Ironic).
 
-# OpenStack setup
+# Telefonica setup
 
 ## The catalog
-For the fog-openstack's introspection service to work, the corresponding
-service must be defined in the OpenStack catalog.
+For the fog-telefonica's introspection service to work, the corresponding
+service must be defined in the Telefonica catalog.
 
 ```bash
-openstack catalog show inspector
+telefonica catalog show inspector
 +-----------+-----------------------------------------+
 | Field     | Value                                   |
 +-----------+-----------------------------------------+
@@ -32,14 +32,14 @@ openstack catalog show inspector
 +-----------+-----------------------------------------+
 ```
 
-Depending on the OpenStack release, the introspection service might be installed
+Depending on the Telefonica release, the introspection service might be installed
 but not defined yet in the catalog. In such case, you must add the service and
 corresponding endpoints to create the catalog entry:
 
 ```bash
 source ./stackrc
-openstack service create --name inspector --description "OpenStack Introspection" introspection
-openstack endpoint create --region regionOne inspector --publicurl http://example.com:5050/v1 --internalurl http://example.com:5050/v1 --adminurl http://example.com:5050/v1
+telefonica service create --name inspector --description "Telefonica Introspection" introspection
+telefonica endpoint create --region regionOne inspector --publicurl http://example.com:5050/v1 --internalurl http://example.com:5050/v1 --adminurl http://example.com:5050/v1
 ```
 
 ## The introspection timeout
@@ -50,7 +50,7 @@ if you are in the latter case the timeout value can be reduced for speeding
 results:
 
 ```bash
-sudo openstack-config --set /etc/ironic-inspector/inspector.conf DEFAULT timeout 300
+sudo telefonica-config --set /etc/ironic-inspector/inspector.conf DEFAULT timeout 300
 ```
 
 # Work flow
@@ -63,7 +63,7 @@ consist of:
   introspection.
 
 For more details about this process please refer to
-http://docs.openstack.org/developer/ironic-inspector/workflow.html
+http://docs.telefonica.org/developer/ironic-inspector/workflow.html
 
 
 Using 'irb', we start with authentication:
@@ -78,11 +78,11 @@ require 'rubygems'
 require 'telefonica'
 
 @connection_params = {
-  :openstack_auth_url     => @base_url,
-  :openstack_username     => @user,
-  :openstack_api_key      => @password,
-  :openstack_project_name => @project,
-  :openstack_domain_id    => "default"
+  :telefonica_auth_url     => @base_url,
+  :telefonica_username     => @user,
+  :telefonica_api_key      => @password,
+  :telefonica_project_name => @project,
+  :telefonica_domain_id    => "default"
 }
 ```
 ## Baremetal node introspection
@@ -92,7 +92,7 @@ require 'telefonica'
 Find the available Baremetal nodes.
 
 ```ruby
-iron = Fog::Baremetal::OpenStack.new(@connection_params)
+iron = Fog::Baremetal::Telefonica.new(@connection_params)
 
 nodes = iron.node_list
 ```
@@ -105,11 +105,11 @@ Note: To be introspected, a node must be in "manage" state. If needed, use Barem
 to change the state with set_node_provision_state.
 
 For more information, please refer to
-http://docs.openstack.org/developer/ironic/deploy/install-guide.html#hardware-inspection
+http://docs.telefonica.org/developer/ironic/deploy/install-guide.html#hardware-inspection
 
 ```ruby
 node_id = nodes.body["nodes"][0]["uuid"]
-inspector = Fog::Introspection::OpenStack.new(@connection_params)
+inspector = Fog::Introspection::Telefonica.new(@connection_params)
 
 introspection1 = inspector.create_introspection(node_id)
 ```

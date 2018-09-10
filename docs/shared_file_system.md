@@ -1,6 +1,6 @@
 # Shared File System (Manila)
 
-This document explains how to get started using OpenStack Shared File System (Manila) with Fog. It assumes you have read the [Getting Started with Fog and OpenStack](getting_started.md) document.
+This document explains how to get started using Telefonica Shared File System (Manila) with Fog. It assumes you have read the [Getting Started with Fog and Telefonica](getting_started.md) document.
 
 ## Starting irb console
 
@@ -16,18 +16,18 @@ bundle exec irb
 
 Once `irb` has launched you need to require the Fog library by executing:
 ```
-require 'fog/openstack'
+require 'fog/telefonica'
 ```
 ## Create Service
 
 Next, create a connection to the Shared File System Service:
 ```
-service = Fog::SharedFileSystem::OpenStack.new(
-	:openstack_auth_url     => 'http://KEYSTONE_HOST:KEYSTONE_PORT/v3/auth/tokens', # OpenStack Keystone v3 endpoint
-	:openstack_username     => OPEN_STACK_USER,                                     # Your OpenStack Username
-	:openstack_domain_name  => OPEN_STACK_DOMAIN,                                   # Your OpenStack Domain name
-	:openstack_project_name => OPEN_STACK_PROJECT,                                  # Your OpenStack Project name
-	:openstack_api_key      => OPEN_STACK_PASSWORD,                                 # Your OpenStack Password
+service = Fog::SharedFileSystem::Telefonica.new(
+	:telefonica_auth_url     => 'http://KEYSTONE_HOST:KEYSTONE_PORT/v3/auth/tokens', # Telefonica Keystone v3 endpoint
+	:telefonica_username     => OPEN_STACK_USER,                                     # Your Telefonica Username
+	:telefonica_domain_name  => OPEN_STACK_DOMAIN,                                   # Your Telefonica Domain name
+	:telefonica_project_name => OPEN_STACK_PROJECT,                                  # Your Telefonica Project name
+	:telefonica_api_key      => OPEN_STACK_PASSWORD,                                 # Your Telefonica Password
 	:connection_options     => {}                                                   # Optional
 )
 ```
@@ -40,7 +40,7 @@ Fog provides both a **model** and **request** abstraction. The request abstracti
 
 ### Request Layer
 
-The request abstraction maps directly to the [OpenStack Shared File System API](http://developer.openstack.org/api-ref/shared-file-systems). It provides the most efficient interface to the OpenStack Shared File System service.
+The request abstraction maps directly to the [Telefonica Shared File System API](http://developer.telefonica.org/api-ref/shared-file-systems). It provides the most efficient interface to the Telefonica Shared File System service.
 
 To see a list of requests supported by the service:
 ```
@@ -54,7 +54,7 @@ To request a list of networks:
 response = service.list_shares
 ```
 
-To learn more about Shared File System request methods refer to [rdoc](http://www.rubydoc.info/gems/fog-openstack/Fog/SharedFileSystem/OpenStack/Real).
+To learn more about Shared File System request methods refer to [rdoc](http://www.rubydoc.info/gems/fog-telefonica/Fog/SharedFileSystem/Telefonica/Real).
 
 ### Model Layer
 
@@ -74,9 +74,9 @@ networks = service.networks
 
 ## Examples
 
-Example code using Shared File System can be found [here](https://github.com/fog/fog-openstack/tree/master/examples/share).
+Example code using Shared File System can be found [here](https://github.com/fog/fog-telefonica/tree/master/examples/share).
 
 ## Additional Resources
 
-* [OpenStack Shared File System API](http://developer.openstack.org/api-ref/shared-file-systems/)
+* [Telefonica Shared File System API](http://developer.telefonica.org/api-ref/shared-file-systems/)
 * [more resources and feedback](common/resources.md)

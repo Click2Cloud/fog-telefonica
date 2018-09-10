@@ -126,7 +126,7 @@
     },
     "os_distro": {
       "type": "string",
-      "description": "Common name of operating system distribution as specified in http://docs.openstack.org/trunk/openstack-compute/admin/content/adding-images.html",
+      "description": "Common name of operating system distribution as specified in http://docs.telefonica.org/trunk/telefonica-compute/admin/content/adding-images.html",
       "is_base": false
     },
     "name": {
@@ -171,7 +171,7 @@
     },
     "architecture": {
       "type": "string",
-      "description": "Operating system architecture as specified in http://docs.openstack.org/trunk/openstack-compute/admin/content/adding-images.html",
+      "description": "Operating system architecture as specified in http://docs.telefonica.org/trunk/telefonica-compute/admin/content/adding-images.html",
       "is_base": false
     },
     "direct_url": {

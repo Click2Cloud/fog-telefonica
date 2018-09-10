@@ -72,7 +72,7 @@ get_file_contents_http_template:
     - https://raw.githubusercontent.com/redhat-telefonica/openshift-on-telefonica/master/templates/var/lib/ansible/inventory
   - input:
       type: >-
-        https://raw.githubusercontent.com/redhat-openstack/openshift-on-openstack/master/collect-config-setup/install_config_agent_centos_yum.yaml
+        https://raw.githubusercontent.com/redhat-telefonica/openshift-on-telefonica/master/collect-config-setup/install_config_agent_centos_yum.yaml
     expected:
     - https://raw.githubusercontent.com/redhat-telefonica/openshift-on-telefonica/master/collect-config-setup/fragments/configure_config_agent.sh
     - https://raw.githubusercontent.com/redhat-telefonica/openshift-on-telefonica/master/collect-config-setup/install_config_agent_centos_yum.yaml

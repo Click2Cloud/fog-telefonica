@@ -28,7 +28,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '15'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-555a8892-35e0-4546-a2df-4767955acfe0
       Date:
       - Tue, 03 May 2016 14:18:38 GMT
@@ -73,7 +73,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '402'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-de79c95f-5cb8-4fd9-a2fe-9dfe29fad88a
       Date:
       - Tue, 03 May 2016 14:18:39 GMT
@@ -123,7 +123,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '705'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-ad4280f6-eb74-4f93-b99f-92a199815f95
       Date:
       - Tue, 03 May 2016 14:18:39 GMT
@@ -176,7 +176,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '706'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-8ab0bd4b-4cff-418a-812c-5940f865d03c
       Date:
       - Tue, 03 May 2016 14:18:40 GMT
@@ -229,7 +229,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '17'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-324fdf83-3254-433c-8b56-2858ecca766b
       Date:
       - Tue, 03 May 2016 14:18:41 GMT
@@ -275,7 +275,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '284'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-d2c926cb-5229-48d7-a575-6f015023feb3
       Date:
       - Tue, 03 May 2016 14:18:41 GMT
@@ -323,7 +323,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '416'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-1090b170-5968-4f2f-8598-1f34eb473567
       Date:
       - Tue, 03 May 2016 14:18:41 GMT
@@ -372,7 +372,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '419'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-8c709ce6-a22c-43bc-ac99-12982df1e845
       Date:
       - Tue, 03 May 2016 14:18:42 GMT
@@ -421,7 +421,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '291'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-36b02bd5-c0cc-42b1-b003-d5b507251f23
       Date:
       - Tue, 03 May 2016 14:18:43 GMT
@@ -469,7 +469,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '425'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-274e4d8c-2d45-48ba-9a3b-6c5bd1116e98
       Date:
       - Tue, 03 May 2016 14:18:43 GMT
@@ -517,7 +517,7 @@ http_interactions:
       - text/html; charset=UTF-8
       Content-Length:
       - '0'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-f4599780-c856-46cc-8b1a-937fcd6c0d24
       Date:
       - Tue, 03 May 2016 14:18:43 GMT
@@ -562,7 +562,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '424'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-2e2fe00d-dd0c-4276-94e4-36ab9265f72a
       Date:
       - Tue, 03 May 2016 14:18:43 GMT
@@ -612,7 +612,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '424'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-449a329d-4f22-495c-93b2-8d3bee14460a
       Date:
       - Tue, 03 May 2016 14:18:44 GMT
@@ -662,7 +662,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '424'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-d6d32ff3-af14-4c2d-8c90-07ec98b947e5
       Date:
       - Tue, 03 May 2016 14:18:46 GMT
@@ -712,7 +712,7 @@ http_interactions:
       - application/json; charset=UTF-8
       X-Compute-Request-Id:
       - req-c72dddb4-6b77-40f5-8c32-cb3dc6bc2ec6
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-c72dddb4-6b77-40f5-8c32-cb3dc6bc2ec6
       Date:
       - Tue, 03 May 2016 14:18:51 GMT
@@ -758,7 +758,7 @@ http_interactions:
       - application/json; charset=UTF-8
       X-Compute-Request-Id:
       - req-a683f845-f689-4fbe-a3c6-bb5ff8c43156
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-a683f845-f689-4fbe-a3c6-bb5ff8c43156
       Date:
       - Tue, 03 May 2016 14:18:51 GMT
@@ -804,7 +804,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '706'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-4fbbe58d-0230-45d3-8ffc-a803ab81d675
       Date:
       - Tue, 03 May 2016 14:18:51 GMT
@@ -857,7 +857,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '706'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-aedb9b86-ea0f-4ebd-b901-9f2e168e62d9
       Date:
       - Tue, 03 May 2016 14:18:51 GMT
@@ -908,7 +908,7 @@ http_interactions:
       - text/html; charset=UTF-8
       Content-Length:
       - '0'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-285ef4a8-4403-460c-9351-75c34ccc4339
       Date:
       - Tue, 03 May 2016 14:18:52 GMT
@@ -953,7 +953,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '705'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-abedd7d9-866b-495c-8b97-773786281bb6
       Date:
       - Tue, 03 May 2016 14:18:52 GMT
@@ -1006,7 +1006,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '705'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-7a261c01-502e-4d97-a589-13ec5875e034
       Date:
       - Tue, 03 May 2016 14:18:54 GMT
@@ -1059,7 +1059,7 @@ http_interactions:
       - application/json; charset=UTF-8
       X-Compute-Request-Id:
       - req-50405d14-31fc-4abf-b9d2-c26204918c08
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-50405d14-31fc-4abf-b9d2-c26204918c08
       Date:
       - Tue, 03 May 2016 14:18:56 GMT

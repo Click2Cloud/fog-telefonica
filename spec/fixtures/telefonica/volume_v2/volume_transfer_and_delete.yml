@@ -28,7 +28,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '15'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-fbe427ce-0358-40b5-9a00-bec60374df75
       Date:
       - Tue, 03 May 2016 14:22:02 GMT
@@ -73,7 +73,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '800'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-5eebb3f5-9a52-4acd-8a11-e5cc504db3d9
       Date:
       - Tue, 03 May 2016 14:22:02 GMT
@@ -127,7 +127,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1103'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-43d756fb-187a-426a-9b62-09236b9d31cb
       Date:
       - Tue, 03 May 2016 14:22:02 GMT
@@ -184,7 +184,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1104'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-48e4f83b-9dc8-4c36-b47b-2d05ffdce67e
       Date:
       - Tue, 03 May 2016 14:22:04 GMT
@@ -241,7 +241,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '17'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-6bad71aa-65fb-4b38-8d6d-4d7c72eeff6e
       Date:
       - Tue, 03 May 2016 14:22:04 GMT
@@ -286,7 +286,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '521'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-293c5efb-deae-4221-a608-e0a920e3c471
       Date:
       - Tue, 03 May 2016 14:22:05 GMT
@@ -331,7 +331,7 @@ http_interactions:
       - b0c103f4e5cd4b1f94efaa1533d0cdf2
       Vary:
       - X-Auth-Token
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-11e31d96-1a66-4ac2-994c-2db3c512a52b
       Content-Length:
       - '7367'
@@ -451,7 +451,7 @@ http_interactions:
       - text/html; charset=UTF-8
       Content-Length:
       - '0'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-8e64740f-0359-43bd-af66-fffb36845904
       Date:
       - Tue, 03 May 2016 14:22:05 GMT
@@ -496,7 +496,7 @@ http_interactions:
       - application/json; charset=UTF-8
       X-Compute-Request-Id:
       - req-b99d2281-a59b-4493-8c95-23f72b542d9c
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-b99d2281-a59b-4493-8c95-23f72b542d9c
       Date:
       - Tue, 03 May 2016 14:22:06 GMT
@@ -542,7 +542,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1104'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-dfc2ec74-d246-4e57-a6ae-d26d109d2b85
       Date:
       - Tue, 03 May 2016 14:22:06 GMT
@@ -599,7 +599,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1104'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-820d7362-8baa-4042-809d-9dc2e96e2ae8
       Date:
       - Tue, 03 May 2016 14:22:06 GMT
@@ -654,7 +654,7 @@ http_interactions:
       - text/html; charset=UTF-8
       Content-Length:
       - '0'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-92020d8d-4f7f-400c-a8b9-deb178b64a12
       Date:
       - Tue, 03 May 2016 14:22:07 GMT
@@ -699,7 +699,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1103'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-418ba9f9-7226-4eb6-a160-ddb060d140ee
       Date:
       - Tue, 03 May 2016 14:22:07 GMT
@@ -756,7 +756,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1103'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-f0e2f70b-dd93-47d8-9e4d-6ef4be213fd8
       Date:
       - Tue, 03 May 2016 14:22:08 GMT
@@ -813,7 +813,7 @@ http_interactions:
       - application/json; charset=UTF-8
       X-Compute-Request-Id:
       - req-2fb2a454-f704-4770-9564-95ce28bb24cd
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-2fb2a454-f704-4770-9564-95ce28bb24cd
       Date:
       - Tue, 03 May 2016 14:22:11 GMT

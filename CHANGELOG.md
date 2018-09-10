@@ -4,7 +4,7 @@
 
 * Added storage (Swift) example to set account quotas:
 
-  https://github.com/fog/fog/blob/master/lib/fog/openstack/examples/storage/set-account-quota.rb
+  https://github.com/fog/fog/blob/master/lib/fog/telefonica/examples/storage/set-account-quota.rb
 
 * Added account impersonation to the storage service
 
@@ -18,7 +18,7 @@
 
   Implements provider extensions when creating networks.
 
-  See http://docs.openstack.org/trunk/openstack-network/admin/content/provider_attributes.html
+  See http://docs.telefonica.org/trunk/telefonica-network/admin/content/provider_attributes.html
 
 * Network Router support (Quantum)
 
@@ -26,9 +26,9 @@
 
 * New network service example
 
-  See https://github.com/fog/fog/blob/master/lib/fog/openstack/examples/network/network_subnets_routers.rb
+  See https://github.com/fog/fog/blob/master/lib/fog/telefonica/examples/network/network_subnets_routers.rb
 
-* :openstack_endpoint_type parameter was added to the network service
+* :telefonica_endpoint_type parameter was added to the network service
 
 ## Image
 
@@ -37,7 +37,7 @@
   Download CirrOS 0.3.0 image from launchpad (~6.5MB) to /tmp
   and upload it to Glance.
 
-  See https://github.com/fog/fog/blob/master/lib/fog/openstack/examples/image/upload-test-image.rb
+  See https://github.com/fog/fog/blob/master/lib/fog/telefonica/examples/image/upload-test-image.rb
 
 * Check for glance version (fog only supports v1)
 

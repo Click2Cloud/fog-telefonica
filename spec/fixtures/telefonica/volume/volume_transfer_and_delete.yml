@@ -28,7 +28,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '15'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-0ff504b8-4ef5-4f43-acc2-5710c23d69d1
       Date:
       - Tue, 03 May 2016 14:16:11 GMT
@@ -73,7 +73,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '800'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-ec5b94c4-bb85-466e-abba-5b8831e3edec
       Date:
       - Tue, 03 May 2016 14:16:11 GMT
@@ -127,7 +127,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1103'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-49a58f15-833e-4509-b761-86ce51387c81
       Date:
       - Tue, 03 May 2016 14:16:12 GMT
@@ -184,7 +184,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1104'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-52bfabb4-4672-4edc-b384-27ff9b27136b
       Date:
       - Tue, 03 May 2016 14:16:13 GMT
@@ -241,7 +241,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '17'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-1de12529-e3f7-4d47-8e5b-d3bf1e2ac5d6
       Date:
       - Tue, 03 May 2016 14:16:13 GMT
@@ -286,7 +286,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '521'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-458789a9-f873-4b4d-8247-50a48b3eb892
       Date:
       - Tue, 03 May 2016 14:16:14 GMT
@@ -331,7 +331,7 @@ http_interactions:
       - 5caa8654d3f748f891431bf7eda6e949
       Vary:
       - X-Auth-Token
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-dba14647-8090-4ad1-b292-7eac9cd9016b
       Content-Length:
       - '7367'
@@ -451,7 +451,7 @@ http_interactions:
       - text/html; charset=UTF-8
       Content-Length:
       - '0'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-73e395e5-0040-43e9-86d0-3daf84be213c
       Date:
       - Tue, 03 May 2016 14:16:14 GMT
@@ -496,7 +496,7 @@ http_interactions:
       - application/json; charset=UTF-8
       X-Compute-Request-Id:
       - req-7494843e-5285-4150-b4b2-ea63d073eea1
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-7494843e-5285-4150-b4b2-ea63d073eea1
       Date:
       - Tue, 03 May 2016 14:16:15 GMT
@@ -542,7 +542,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1104'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-484d3f5a-bb58-4a7d-84b2-0474bca189d3
       Date:
       - Tue, 03 May 2016 14:16:15 GMT
@@ -599,7 +599,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1104'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-4c8446ec-6b3d-4adb-a81c-d913177b9dcd
       Date:
       - Tue, 03 May 2016 14:16:15 GMT
@@ -654,7 +654,7 @@ http_interactions:
       - text/html; charset=UTF-8
       Content-Length:
       - '0'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-260c35ad-5eb5-4994-a9ee-9d808874014f
       Date:
       - Tue, 03 May 2016 14:16:16 GMT
@@ -699,7 +699,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1103'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-11e05445-c5e5-4677-9f77-7153fd937e34
       Date:
       - Tue, 03 May 2016 14:16:16 GMT
@@ -756,7 +756,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1103'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-79101566-654e-4fb9-ab5e-32f4c02d93da
       Date:
       - Tue, 03 May 2016 14:16:17 GMT
@@ -813,7 +813,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '1103'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-19b2f7c8-f7c1-4729-a8b5-17252bf65485
       Date:
       - Tue, 03 May 2016 14:16:20 GMT
@@ -870,7 +870,7 @@ http_interactions:
       - application/json; charset=UTF-8
       X-Compute-Request-Id:
       - req-630c2029-7f97-4097-90b6-4e6c16635cdd
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-630c2029-7f97-4097-90b6-4e6c16635cdd
       Date:
       - Tue, 03 May 2016 14:16:24 GMT

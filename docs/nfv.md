@@ -1,23 +1,23 @@
 # NFV
 
 This document explains how to get started using NFV with
-fog-openstack.
+fog-telefonica.
 
 Please also refer to the
-[Getting Started with Fog and the OpenStack](getting_started.md) document.
+[Getting Started with Fog and the Telefonica](getting_started.md) document.
 
-Tacker is an OpenStack service for NFV Orchestration with a general purpose
+Tacker is an Telefonica service for NFV Orchestration with a general purpose
 VNF Manager to deploy and operate Virtual Network Functions (VNFs) and Network
 Services on an NFV Platform. It is based on ETSI MANO Architectural Framework.
 
-# OpenStack setup
+# Telefonica setup
 
 ## The catalog
-For the fog-openstack's introspection service to work, the corresponding
-service must be defined in the OpenStack catalog.
+For the fog-telefonica's introspection service to work, the corresponding
+service must be defined in the Telefonica catalog.
 
 ```bash
-openstack catalog show servicevm
+telefonica catalog show servicevm
 +-----------+-----------------------------------------+
 | Field     | Value                                   |
 +-----------+-----------------------------------------+
@@ -31,14 +31,14 @@ openstack catalog show servicevm
 +-----------+-----------------------------------------+
 ```
 
-Depending on the OpenStack release, the NFV service might be installed
+Depending on the Telefonica release, the NFV service might be installed
 but not defined yet in the catalog. In such case, you must add the service and
 corresponding endpoints to create the catalog entry:
 
 ```bash
 source ./stackrc
-openstack service create --name tacker --description "Tacker Project" servicevm
-openstack endpoint create --region regionOne tacker --publicurl http://example.com:8888 --internalurl http://example.com:8888 --adminurl http://example.com:8888
+telefonica service create --name tacker --description "Tacker Project" servicevm
+telefonica endpoint create --region regionOne tacker --publicurl http://example.com:8888 --internalurl http://example.com:8888 --adminurl http://example.com:8888
 ```
 
 # Work flow
@@ -48,7 +48,7 @@ A usual work-flow might consist of:
 * Retrieve vnf and vnfd data
 
 For more details please refer to
-http://docs.openstack.org/developer/tacker/
+http://docs.telefonica.org/developer/tacker/
 
 Using 'irb', we start with authentication:
 
@@ -62,11 +62,11 @@ require 'rubygems'
 require 'telefonica'
 
 @connection_params = {
-  :openstack_auth_url     => @base_url,
-  :openstack_username     => @user,
-  :openstack_api_key      => @password,
-  :openstack_project_name => @project,
-  :openstack_domain_id    => "default"
+  :telefonica_auth_url     => @base_url,
+  :telefonica_username     => @user,
+  :telefonica_api_key      => @password,
+  :telefonica_project_name => @project,
+  :telefonica_domain_id    => "default"
 }
 ```
 
@@ -80,26 +80,26 @@ vnfd_data = {:attributes    => {:vnfd => "template_name: sample-vnfd\ndescriptio
              :mgmt_driver   => "noop",
              :infra_driver  => "heat"}
 auth      = {"tenantName" => "admin", "passwordCredentials" => {"username" => "admin","password" => "password"}}
-vnfd      = Fog::NFV[:openstack].vnfds.create(:vnfd => vnfd_data, :auth => auth)
+vnfd      = Fog::NFV[:telefonica].vnfds.create(:vnfd => vnfd_data, :auth => auth)
 ```
 
 ### List vnfds
 
 ```ruby
-vnfds = Fog::NFV[:openstack].vnfds
+vnfds = Fog::NFV[:telefonica].vnfds
 ```
 
 ### Get vnfd
 
 ```ruby
-vnfd = Fog::NFV[:openstack].vnfds.last
-vnfd = Fog::NFV[:openstack].vnfds.get(vnfd.id)
+vnfd = Fog::NFV[:telefonica].vnfds.last
+vnfd = Fog::NFV[:telefonica].vnfds.get(vnfd.id)
 ```
 
 ### Destroy vnfd
 
 ```ruby
-vnfd = Fog::NFV[:openstack].vnfds.last
+vnfd = Fog::NFV[:telefonica].vnfds.last
 vnfd.destroy
 ```
 
@@ -108,29 +108,29 @@ vnfd.destroy
 ### Create vnf using vnfd
 
 ```ruby
-vnfd     = Fog::NFV[:openstack].vnfds.last
+vnfd     = Fog::NFV[:telefonica].vnfds.last
 vnf_data = {:vnfd_id => vnfd.id, :name => 'Test'}
 auth     = {"tenantName" => "admin", "passwordCredentials" => {"username" => "admin","password" => "password"}}
-vnf      = Fog::NFV[:openstack].vnfs.create(:vnf => vnf_data, :auth => auth)
+vnf      = Fog::NFV[:telefonica].vnfs.create(:vnf => vnf_data, :auth => auth)
 ```
 
 ### List vnfs
 
 ```ruby
-vnfs = Fog::NFV[:openstack].vnfs
+vnfs = Fog::NFV[:telefonica].vnfs
 ```
 
 ### Get vnf
 
 ```ruby
-vnf = Fog::NFV[:openstack].vnfs.last
-vnf = Fog::NFV[:openstack].vnfs.get(vnf.id)
+vnf = Fog::NFV[:telefonica].vnfs.last
+vnf = Fog::NFV[:telefonica].vnfs.get(vnf.id)
 ```
 
 ### Update vnf
 
 ```ruby
-vnf      = Fog::NFV[:openstack].vnfs.last
+vnf      = Fog::NFV[:telefonica].vnfs.last
 vnf_data = {"attributes": {"config": "vdus:\n  vdu1:<sample_vdu_config> \n\n"}}
 auth     = {"tenantName" => "admin", "passwordCredentials" => {"username" => "admin","password" => "password"}}
 vnf      = vnf.update(:vnf => vnf_data, :auth => auth)
@@ -139,6 +139,6 @@ vnf      = vnf.update(:vnf => vnf_data, :auth => auth)
 ### Destroy vnf
 
 ```ruby
-vnf = Fog::NFV[:openstack].vnfs.last
+vnf = Fog::NFV[:telefonica].vnfs.last
 vnf.destroy
 ```

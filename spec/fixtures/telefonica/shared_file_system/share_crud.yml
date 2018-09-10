@@ -30,7 +30,7 @@ http_interactions:
       - '2322'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-fd2a1c4f-ea16-4eec-a2a3-9ff9282d6b33
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -75,7 +75,7 @@ http_interactions:
       - '1719'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-fbf55993-2229-4903-bd2d-656b3159dd05
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -122,10 +122,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-812a30d3-bebb-4cfc-b08e-eef581af6d88
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -170,10 +170,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-89001acf-9d23-4ef2-abd2-0fd8f316e427
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -221,10 +221,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-62797fc9-1f78-4300-b499-4ede4d61b04b
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -272,10 +272,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-8c4d78c2-b14b-4e59-8710-28491c11eb56
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -323,10 +323,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-7a638258-f042-49b2-98d2-9d51cc4c1ac6
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -374,10 +374,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-fe0da670-2f9e-4819-91b8-041859acf455
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -425,10 +425,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-c4b3a425-c63a-475d-a615-fa23748766b2
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -474,10 +474,10 @@ http_interactions:
       - '0'
       Connection:
       - keep-alive
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -517,10 +517,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-870449c7-978c-4341-8048-9dc77dd962a7
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -560,10 +560,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-12ae5c4b-77b8-4a38-bbca-1bff994e6415
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -605,10 +605,10 @@ http_interactions:
       - '0'
       Connection:
       - keep-alive
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.0'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:

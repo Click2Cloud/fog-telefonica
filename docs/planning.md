@@ -1,6 +1,6 @@
 # Planning
 
-This document explains how to get started using OpenStack Tuskar with Fog.
+This document explains how to get started using Telefonica Tuskar with Fog.
 
 
 ## Starting irb console
@@ -31,11 +31,11 @@ require 'telefonica'
 Next, create a connection to Tuskar:
 
 ```ruby
-service = Fog::OpenStack.new({
-  :service             => :planning,     # OpenStack Fog service
-  :openstack_username  => USERNAME,      # Your OpenStack Username
-  :openstack_api_key   => PASSWORD,      # Your OpenStack Password
-  :openstack_auth_url  => 'http://YOUR_OPENSTACK_ENDPOINT:PORT/v2.0/tokens'
+service = Fog::Telefonica.new({
+  :service             => :planning,     # Telefonica Fog service
+  :telefonica_username  => USERNAME,      # Your Telefonica Username
+  :telefonica_api_key   => PASSWORD,      # Your Telefonica Password
+  :telefonica_auth_url  => 'http://YOUR_TELEFONICA_ENDPOINT:PORT/v2.0/tokens'
   :connection_options  => {}             # Optional
 })
 ```
@@ -48,7 +48,7 @@ Fog provides both a **model** and **request** abstraction. The request abstracti
 
 ### Request Layer
 
-The `Fog::OpenStack[:planning]` object supports a number of methods that wrap individual HTTP requests to the Tuskar API.
+The `Fog::Telefonica[:planning]` object supports a number of methods that wrap individual HTTP requests to the Tuskar API.
 
 To see a list of requests supported by the planning service:
 
@@ -116,7 +116,7 @@ This returns in the following `Excon::Response`:
 	"roles"=>
 	  [
 	  {
-	    "description"=>"OpenStack hypervisor node. Can be wrapped in a ResourceGroup for scaling.\n",
+	    "description"=>"Telefonica hypervisor node. Can be wrapped in a ResourceGroup for scaling.\n",
 	    "name"=>"compute",
 	    "uuid"=>"b7b1583c-5c80-481f-a25b-708ed4a39734",
 	    "version"=>1
@@ -169,8 +169,8 @@ This will return hash similar to:
 }
 ```
 
-[//]: # (TODO: Specify URL to rubydoc.info when OpenStack Planning service is part of release and pages are built)
-To learn more about `Fog::OpenStack[:planning]` request methods refer to [rdoc](http://rubydoc.info/gems/fog/Fog). To learn more about Excon refer to [Excon GitHub repo](https://github.com/geemus/excon).
+[//]: # (TODO: Specify URL to rubydoc.info when Telefonica Planning service is part of release and pages are built)
+To learn more about `Fog::Telefonica[:planning]` request methods refer to [rdoc](http://rubydoc.info/gems/fog/Fog). To learn more about Excon refer to [Excon GitHub repo](https://github.com/geemus/excon).
 
 ### Model Layer
 
@@ -221,5 +221,5 @@ The remainder of this document details the model abstraction.
 
 ## Additional Resources
 
-* [Tuskar API](http://docs.openstack.org/developer/tuskar/)
+* [Tuskar API](http://docs.telefonica.org/developer/tuskar/)
 * [more resources and feedback](common/resources.md)

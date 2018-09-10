@@ -20,7 +20,7 @@ http_interactions:
       - application/json
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-424208f4-a2cb-4690-8853-b3147c4e7ed9
       Vary:
       - X-Auth-Token
@@ -183,7 +183,7 @@ http_interactions:
                 "id": "v1",
                 "links": [
                   {
-                    "href": "https://devstack.openstack.stack:9001/v1",
+                    "href": "https://devstack.telefonica.stack:9001/v1",
                     "rel": "self"
                   }
                 ],
@@ -193,7 +193,7 @@ http_interactions:
                 "id": "v2",
                 "links": [
                   {
-                    "href": "https://devstack.openstack.stack:9001/v2",
+                    "href": "https://devstack.telefonica.stack:9001/v2",
                     "rel": "self"
                   }
                 ],

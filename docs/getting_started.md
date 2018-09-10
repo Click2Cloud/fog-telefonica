@@ -1,6 +1,6 @@
-# Getting Started with Fog and OpenStack
+# Getting Started with Fog and Telefonica
 
-This document explains how to get started using Fog with [OpenStack](http://openstack.org)
+This document explains how to get started using Fog with [Telefonica](http://telefonica.org)
 
 ## Requirements
 
@@ -20,9 +20,9 @@ Bundler helps manage gem dependencies and is recommended for new projects. For m
 
 ## Installation
 
-To install Fog-Openstack via RubyGems run the following command:
+To install Fog-Telefonica via RubyGems run the following command:
 
-    $ gem install fog-openstack
+    $ gem install fog-telefonica
 
 To install Fog via Bundler add `gem 'fog'` to your `Gemfile`. This is a sample `Gemfile` to install Fog:
 
@@ -62,7 +62,7 @@ require 'telefonica'
 You should now be able to execute the following command to see a list of services Fog provides for the Rackspace Open Cloud:
 
 ```ruby
-Fog::OpenStack.services
+Fog::Telefonica.services
 ```
 
 These services can be explored in further depth in the following documents:

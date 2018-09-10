@@ -32,7 +32,7 @@ http_interactions:
       - keep-alive
       Location:
       - https://devstack.telefonica.stack:9001/v2/zones/85735965-31a1-46f9-a429-7e410b75e8e1
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-13c405d5-1ade-4755-ba2f-a2c81d5ff34d
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -79,7 +79,7 @@ http_interactions:
       - '594'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-9d7c6734-7e32-4110-b053-7c4aa7027303
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -127,7 +127,7 @@ http_interactions:
       - '594'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-20342c50-24c5-4ae3-8c36-f081d17ed903
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -175,7 +175,7 @@ http_interactions:
       - '594'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-2f43a507-112c-433e-b479-0b1140e0081b
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -223,7 +223,7 @@ http_interactions:
       - '724'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-a01b0c87-b6ff-4a9d-8c21-1106967141c0
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -272,7 +272,7 @@ http_interactions:
       - '724'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-02e2858f-ca1c-4ee2-a9e4-62b7057f6a40
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -321,7 +321,7 @@ http_interactions:
       - '594'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-907cbf36-376f-4b06-b1c1-c16620afbc9f
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -369,7 +369,7 @@ http_interactions:
       - '724'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-d2d7cf1a-b5b8-4619-b441-2f827a636392
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload

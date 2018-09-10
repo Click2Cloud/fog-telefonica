@@ -10,7 +10,7 @@
 # Create the develompent environment with
 #
 # $ docker-compose up -d ruby
-# $ docker exec -ti fogopenstack_ruby_1  /bin/bash
+# $ docker exec -ti fogtelefonica_ruby_1  /bin/bash
 #
 version: '2'
 

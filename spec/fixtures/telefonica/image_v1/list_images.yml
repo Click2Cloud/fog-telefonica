@@ -26,7 +26,7 @@ http_interactions:
       - application/json; charset=UTF-8
       Content-Length:
       - '2244'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-497d2610-6da3-446d-99cf-ddb01afb7855
       Date:
       - Tue, 03 May 2016 14:00:04 GMT

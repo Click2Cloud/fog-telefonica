@@ -24,7 +24,7 @@ http_interactions:
       - 7f72291092a647578b115b853d129693
       Vary:
       - X-Auth-Token
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-7fffa2b1-97bb-4605-80ac-623452cb6ee7
       Content-Length:
       - '4597'

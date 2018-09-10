@@ -30,7 +30,7 @@ http_interactions:
       - '2322'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-258e3573-a006-44e6-ace0-a80768d52e18
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -75,7 +75,7 @@ http_interactions:
       - '1719'
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-d4196ca2-0e72-4c7c-b4eb-85b76e8c0003
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
@@ -105,7 +105,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -124,10 +124,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-af8a3c4e-61bd-425a-8cf1-7e99540329ea
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -154,7 +154,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -173,10 +173,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-211bc8e0-4809-4d70-ab00-5d9698cccd1d
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -209,7 +209,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -228,10 +228,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-a8f63af5-0df5-4ff5-aced-8fc8e0000df9
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -264,7 +264,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -283,10 +283,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-156178d1-f146-4bbd-aab8-458b99e6472f
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -320,7 +320,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -339,10 +339,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-ab485472-7d1c-4e3a-94e8-49ed6fbcfca3
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -376,7 +376,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -395,10 +395,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-e5652168-1583-4bdb-b24b-e61d858b459f
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -432,7 +432,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -451,10 +451,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-62dd5070-e281-4e62-9706-3f1c40c4d6fc
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -488,7 +488,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -507,10 +507,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-719aabd3-4c29-4ab6-9810-6a119e64f312
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -544,7 +544,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -561,10 +561,10 @@ http_interactions:
       - '0'
       Connection:
       - keep-alive
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -587,7 +587,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -606,10 +606,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-7f348e4e-0314-4e78-a1cf-6220425828c2
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -643,7 +643,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -662,10 +662,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-6b2e0b2e-aaff-453b-b2ce-5c2ba172c05c
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -699,7 +699,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -718,10 +718,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-5da34bf8-816b-4a2e-b394-4a647832eb44
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -755,7 +755,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -772,10 +772,10 @@ http_interactions:
       - '0'
       Connection:
       - keep-alive
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -798,7 +798,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -817,10 +817,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-076aa122-46c4-4f5d-8042-ef481d9f5076
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -854,7 +854,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -873,10 +873,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-09e06286-4a56-448d-95ca-5e1d44e0787b
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -910,7 +910,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -929,10 +929,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-46b5592a-0063-40ff-af26-de186c0d5e0a
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -955,7 +955,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -974,10 +974,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-ac68accd-8959-490f-86ec-ad6433cd900f
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1002,7 +1002,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1021,10 +1021,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-e47da773-23dd-4d14-9a26-14e8e6fc134c
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1048,7 +1048,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1067,10 +1067,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-5d88c059-2625-40e8-b97a-eec9bd5807e4
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1094,7 +1094,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1113,10 +1113,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-47ff39f3-8f1f-4cb1-a2cb-700af03ecd84
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1140,7 +1140,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1159,10 +1159,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-119959f0-2efb-46dd-a10d-a18b66e3b182
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1186,7 +1186,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1205,10 +1205,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-31d0a060-5719-4218-b30f-14b3f62b62d6
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1232,7 +1232,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1249,10 +1249,10 @@ http_interactions:
       - '0'
       Connection:
       - keep-alive
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1275,7 +1275,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1294,10 +1294,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-c201b17b-0d5f-49f9-9831-99860fe0ef95
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1321,7 +1321,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1340,10 +1340,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-c3f729f8-ee7e-4d88-bada-c18662b20b20
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1367,7 +1367,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1386,10 +1386,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-d9bdb204-b772-441a-a1b7-ee85a01c1366
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1413,7 +1413,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1432,10 +1432,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-34e712f5-e1cf-4d7c-bafd-c5f476d728e1
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1458,7 +1458,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1477,10 +1477,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-9113a039-0f62-463b-84e0-42fb4a6ccc8f
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1514,7 +1514,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1531,10 +1531,10 @@ http_interactions:
       - '0'
       Connection:
       - keep-alive
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1557,7 +1557,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1576,10 +1576,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-a637c8b8-5605-49b6-9cd5-07858faa2389
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1613,7 +1613,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1632,10 +1632,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-378f638f-f2f9-4bbd-9a1d-1669e62a03fa
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1669,7 +1669,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1688,10 +1688,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-259e194c-6ec6-4f93-9955-3285d41a0b4b
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1725,7 +1725,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1744,10 +1744,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-1f9ea360-843d-4df7-b452-4dd0263d0f79
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1781,7 +1781,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1800,10 +1800,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-80615411-a606-4697-bc47-c1026700487e
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1826,7 +1826,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1845,10 +1845,10 @@ http_interactions:
       - keep-alive
       X-Compute-Request-Id:
       - req-32d64260-5df3-4855-94cc-46c75f1d1cc0
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:
@@ -1876,7 +1876,7 @@ http_interactions:
       - application/json
       X-Auth-Token:
       - 833aba07925148f9bac2bc047e858727
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
   response:
     status:
@@ -1893,10 +1893,10 @@ http_interactions:
       - '0'
       Connection:
       - keep-alive
-      X-Openstack-Manila-Api-Version:
+      X-Telefonica-Manila-Api-Version:
       - '2.15'
       Vary:
-      - X-OpenStack-Manila-API-Version
+      - X-Telefonica-Manila-API-Version
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains; preload
     body:

@@ -66,7 +66,7 @@ http_interactions:
       - application/json
       Connection:
       - keep-alive
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-1923f264-7af9-4258-9460-dc23abafa58d
       Vary:
       - X-Auth-Token

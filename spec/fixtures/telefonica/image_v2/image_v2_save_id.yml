@@ -26,7 +26,7 @@ http_interactions:
       - application/json; charset=UTF-8
       Location:
       - http://devstack.telefonica.stack:9292/v2/images/11111111-2222-3333-aaaa-bbbbbbcccce2
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-f1e04a12-da92-4e45-bbe1-e69920de9da4
       Date:
       - Fri, 26 Aug 2016 00:36:35 GMT
@@ -68,7 +68,7 @@ http_interactions:
       - '599'
       Content-Type:
       - application/json; charset=UTF-8
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-1a94bfaf-41b3-4373-b1fe-1c729a3d7937
       Date:
       - Fri, 26 Aug 2016 00:36:35 GMT
@@ -110,7 +110,7 @@ http_interactions:
       - '599'
       Content-Type:
       - application/json; charset=UTF-8
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-b3de5526-6d35-4cf4-8626-67a905417e84
       Date:
       - Fri, 26 Aug 2016 00:36:35 GMT
@@ -152,7 +152,7 @@ http_interactions:
       - '595'
       Content-Type:
       - application/json; charset=UTF-8
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-604d4b5a-63e3-4e87-bbaa-be3487c80b5d
       Date:
       - Fri, 26 Aug 2016 00:36:35 GMT
@@ -194,7 +194,7 @@ http_interactions:
       - '595'
       Content-Type:
       - application/json; charset=UTF-8
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-241c2c01-ea23-411e-9000-87e0c3a36584
       Date:
       - Fri, 26 Aug 2016 00:36:36 GMT
@@ -236,7 +236,7 @@ http_interactions:
       - '595'
       Content-Type:
       - application/json; charset=UTF-8
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-9bb9a41d-9bb7-42a0-afb2-aeb4ef91cee5
       Date:
       - Fri, 26 Aug 2016 00:36:36 GMT
@@ -278,7 +278,7 @@ http_interactions:
       - text/html; charset=UTF-8
       Content-Length:
       - '0'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-80b2da40-db23-4f5c-ad25-a894a1fb7355
       Date:
       - Fri, 26 Aug 2016 00:36:37 GMT
@@ -313,7 +313,7 @@ http_interactions:
       - '79'
       Content-Type:
       - text/plain; charset=UTF-8
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-28577b1e-64c3-463c-b9eb-540fb24ce017
       Date:
       - Fri, 26 Aug 2016 00:36:37 GMT

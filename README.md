@@ -1,14 +1,14 @@
-# Fog::OpenStack
+# Fog::Telefonica
 
-[![Gem Version](https://badge.fury.io/rb/fog-openstack.svg)](http://badge.fury.io/rb/fog-openstack) [![Build Status](https://travis-ci.org/fog/fog-openstack.svg?branch=master)](https://travis-ci.org/fog/fog-openstack) [![Dependency Status](https://gemnasium.com/fog/fog-openstack.svg)](https://gemnasium.com/fog/fog-openstack) [![Coverage Status](https://coveralls.io/repos/github/fog/fog-openstack/badge.svg?branch=master)](https://coveralls.io/github/fog/fog-openstack?branch=master) [![Code Climate](https://codeclimate.com/github/fog/fog-openstack.svg)](https://codeclimate.com/github/fog/fog-openstack) [![Join the chat at https://gitter.im/fog/fog-openstack](https://badges.gitter.im/fog/fog-openstack.svg)](https://gitter.im/fog/fog-openstack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gem Version](https://badge.fury.io/rb/fog-telefonica.svg)](http://badge.fury.io/rb/fog-telefonica) [![Build Status](https://travis-ci.org/fog/fog-telefonica.svg?branch=master)](https://travis-ci.org/fog/fog-telefonica) [![Dependency Status](https://gemnasium.com/fog/fog-telefonica.svg)](https://gemnasium.com/fog/fog-telefonica) [![Coverage Status](https://coveralls.io/repos/github/fog/fog-telefonica/badge.svg?branch=master)](https://coveralls.io/github/fog/fog-telefonica?branch=master) [![Code Climate](https://codeclimate.com/github/fog/fog-telefonica.svg)](https://codeclimate.com/github/fog/fog-telefonica) [![Join the chat at https://gitter.im/fog/fog-telefonica](https://badges.gitter.im/fog/fog-telefonica.svg)](https://gitter.im/fog/fog-telefonica?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This is the plugin Gem to talk to [OpenStack](http://openstack.org) clouds via fog.
+This is the plugin Gem to talk to [Telefonica](http://telefonica.org) clouds via fog.
 
-The main maintainers for the OpenStack sections are @dhague, @Ladas, @seanhandley, @mdarby and @jjasghar. Please send CC them on pull requests.
+The main maintainers for the Telefonica sections are @dhague, @Ladas, @seanhandley, @mdarby and @jjasghar. Please send CC them on pull requests.
 
-## Supported OpenStack APIs
+## Supported Telefonica APIs
 
-See the list of [supported OpenStack projects](supported.md).
+See the list of [supported Telefonica projects](supported.md).
 
 ## Installation
 
@@ -24,7 +24,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install fog-openstack
+    $ gem install fog-telefonica
 
 ## Usage
 
@@ -38,61 +38,61 @@ require "telefonica"
 
 Checklist:
 
-* Before you can do anything with an OpenStack cloud, you need to authenticate yourself with the identity service, "Keystone".
-* All following examples assume that `@connection_params` is a hash of valid connection information for an OpenStack cloud.
-* The `:openstack_username` and `:openstack_api_key` keys must map to a valid user/password combination in Keystone.
+* Before you can do anything with an Telefonica cloud, you need to authenticate yourself with the identity service, "Keystone".
+* All following examples assume that `@connection_params` is a hash of valid connection information for an Telefonica cloud.
+* The `:telefonica_username` and `:telefonica_api_key` keys must map to a valid user/password combination in Keystone.
 * If you don't know what domain your user belongs to, chances are it's the `default` domain. By default, all users are a member of the `default` domain unless otherwise specified.
 
 Connection parameters:
 
 ```ruby
 @connection_params = {
-  openstack_auth_url:     "http://devstack.test:5000/v3/auth/tokens",
-  openstack_username:     "admin",
-  openstack_api_key:      "password",
-  openstack_project_name: "admin",
-  openstack_domain_id:    "default"
+  telefonica_auth_url:     "http://devstack.test:5000/v3/auth/tokens",
+  telefonica_username:     "admin",
+  telefonica_api_key:      "password",
+  telefonica_project_name: "admin",
+  telefonica_domain_id:    "default"
 }
 ```
 
-If you're using Keystone V2, you don't need to supply domain details but ensure the `openstack_auth_url` parameter references the correct endpoint.
+If you're using Keystone V2, you don't need to supply domain details but ensure the `telefonica_auth_url` parameter references the correct endpoint.
 
 ```ruby
 @connection_params = {
-  openstack_auth_url:     "http://devstack.test:5000/v2.0/tokens",
-  openstack_username:     "admin",
-  openstack_api_key:      "password",
-  openstack_project_name: "admin"
+  telefonica_auth_url:     "http://devstack.test:5000/v2.0/tokens",
+  telefonica_username:     "admin",
+  telefonica_api_key:      "password",
+  telefonica_project_name: "admin"
 }
 ```
 
-If you're not sure whether your OpenStack cloud uses Keystone V2 or V3 then you can find out by logging into the dashboard (Horizon) and navigating to "Access & Security" under the "Project" section. Select "API Access" and find the line for the Identity Service. If the endpoint has "v3" in it, you're on Keystone V3, if it has "v2" then (surprise) you're on Keystone V2.
+If you're not sure whether your Telefonica cloud uses Keystone V2 or V3 then you can find out by logging into the dashboard (Horizon) and navigating to "Access & Security" under the "Project" section. Select "API Access" and find the line for the Identity Service. If the endpoint has "v3" in it, you're on Keystone V3, if it has "v2" then (surprise) you're on Keystone V2.
 
-If you need a version of OpenStack to test against, get youself a copy of [DevStack](http://docs.openstack.org/developer/devstack/).
+If you need a version of Telefonica to test against, get youself a copy of [DevStack](http://docs.telefonica.org/developer/devstack/).
 
 ### Networking Gotcha
 
-Note that tenants (aka projects) in OpenStack usually require that you create a default gateway router in order to allow external access to your instances.
+Note that tenants (aka projects) in Telefonica usually require that you create a default gateway router in order to allow external access to your instances.
 
-The exception is if you're using Nova (and not Neutron) for your instance networking. If you're using Neutron, you'll want to [set up your default gateway](https://github.com/fog/fog-openstack/blob/usage_doc/README.md#networking-neutron) before you try to give instances public addresses (aka floating IPs).
+The exception is if you're using Nova (and not Neutron) for your instance networking. If you're using Neutron, you'll want to [set up your default gateway](https://github.com/fog/fog-telefonica/blob/usage_doc/README.md#networking-neutron) before you try to give instances public addresses (aka floating IPs).
 
 ### Compute (Nova)
 
 Initialise a connection to the compute service:
 
 ```ruby
-compute = Fog::Compute::OpenStack.new(@connection_params)
+compute = Fog::Compute::Telefonica.new(@connection_params)
 ```
 
 Get a list of available images for use with booting new instances:
 
 ```ruby
 p compute.images
-# =>   <Fog::Compute::OpenStack::Images
+# =>   <Fog::Compute::Telefonica::Images
 #     filters={},
 #     server=nil
 #     [
-#                   <Fog::Compute::OpenStack::Image
+#                   <Fog::Compute::Telefonica::Image
 #         id="57a67f8a-7bae-4578-b684-b9b4dcd48d7f",
 #         ...
 #       >
@@ -104,9 +104,9 @@ List available flavors so we can decide how powerful to make this instance:
 
 ```ruby
 p compute.flavors
-# =>   <Fog::Compute::OpenStack::Flavors
+# =>   <Fog::Compute::Telefonica::Flavors
 #     [
-#                   <Fog::Compute::OpenStack::Flavor
+#                   <Fog::Compute::Telefonica::Flavor
 #         id="1",
 #         name="m1.tiny",
 #         ram=512,
@@ -114,7 +114,7 @@ p compute.flavors
 #         vcpus=1,
 #         ...
 #       >,
-#                   <Fog::Compute::OpenStack::Flavor
+#                   <Fog::Compute::Telefonica::Flavor
 #         id="2",
 #         name="m1.small",
 #         ram=2048,
@@ -140,7 +140,7 @@ instance.wait_for { ready? }
 # => {:duration=>17.359134}
 
 p instance
-# =>   <Fog::Compute::OpenStack::Server
+# =>   <Fog::Compute::Telefonica::Server
 #     id="63633125-26b5-4fe1-a909-0f44d1ab3337",
 #     instance_name=nil,
 #     addresses={"public"=>[{"OS-EXT-IPS-MAC:mac_addr"=>"fa:16:3e:f4:75:ab", "version"=>4, "addr"=>"1.2.3.4", "OS-EXT-IPS:type"=>"fixed"}]},
@@ -176,11 +176,11 @@ Allow TCP traffic through port 22:
 ```ruby
 security_group = compute.security_groups.create name:  "Test SSH",
                                                 description: "Allow access to port 22"
-# =>   <Fog::Compute::OpenStack::SecurityGroup
+# =>   <Fog::Compute::Telefonica::SecurityGroup
 #     id="e5d53d00-b3f9-471a-b90f-985694b966ed",
 #     name="Test SSH",
 #     description="Allow access to port 22",
-#     security_group_rules=    <Fog::Compute::OpenStack::SecurityGroupRules
+#     security_group_rules=    <Fog::Compute::Telefonica::SecurityGroupRules
 #       [
 
 #       ]
@@ -195,7 +195,7 @@ compute.security_group_rules.create parent_group_id: security_group.id,
 
 key_pair = compute.key_pairs.create name:       "My Public Key",
                                     public_key: "/full/path/to/ssh.pub"
-# =>   <Fog::Compute::OpenStack::KeyPair
+# =>   <Fog::Compute::Telefonica::KeyPair
 #     name="My Public Key",
 #     ...
 #     user_id="20746f49211e4037a91269df6a3fbf7b",
@@ -211,7 +211,7 @@ instance = compute.servers.create name:            "Test 2",
                                   flavor_ref:      flavor.id,
                                   key_name:        key_pair.name,
                                   security_groups: security_group
-# =>   <Fog::Compute::OpenStack::Server
+# =>   <Fog::Compute::Telefonica::Server
 #     id="e18ebdfb-e5f5-4a45-929f-4cc9926dc2c7",
 #     name="Test 2",
 #     state="ACTIVE",
@@ -229,7 +229,7 @@ floating_ip_address = compute.addresses.create pool: pool_name
 instance.associate_address floating_ip_address.ip
 
 p floating_ip_address
-# =>   <Fog::Compute::OpenStack::Address
+# =>   <Fog::Compute::Telefonica::Address
 #     id="54064324-ce7d-448d-9753-94497b29dc91",
 #     ip="1.2.3.4",
 #     pool="external",
@@ -255,12 +255,12 @@ $ pwd
 Create and attach a volume to a running instance:
 
 ```ruby
-compute = Fog::Compute::OpenStack.new(@connection_params)
+compute = Fog::Compute::Telefonica.new(@connection_params)
 
 volume = compute.volumes.create name:        "Test",
                                 description: "Testing",
                                 size:        1
-# =>   <Fog::Compute::OpenStack::Volume
+# =>   <Fog::Compute::Telefonica::Volume
 #     id="4a212986-c6b6-4a93-8319-c6a98e347750",
 #     name="Test",
 #     description="Testing",
@@ -291,7 +291,7 @@ volume.reload
 compute.snapshots.create volume_id:   volume.id,
                          name:        "test",
                          description: "test"
-# =>   <Fog::Compute::OpenStack::Snapshot
+# =>   <Fog::Compute::Telefonica::Snapshot
 #     id="7a8c9192-25ee-4364-be91-070b7a6d9855",
 #     name="test",
 #     description="test",
@@ -314,7 +314,7 @@ Download Glance image:
 
 ```ruby
 
-image = Fog::Image::OpenStack.new(@connection_params)
+image = Fog::Image::Telefonica.new(@connection_params)
 
 image_out = File.open("/tmp/cirros-image-download", 'wb')
 
@@ -344,7 +344,7 @@ image_handle = image.images.create name:             "cirros",
                                    disk_format:      "qcow2",
                                    container_format: "bare"
 
-# => <Fog::Image::OpenStack::V2::Image
+# => <Fog::Image::Telefonica::V2::Image
 #      id="67c4d02c-5601-4619-bd14-d2f7f96a046c",
 #      name="cirros",
 #      visibility="private",
@@ -391,12 +391,12 @@ cirros.destroy
 List domains (Keystone V3 only):
 
 ```ruby
-identity = Fog::Identity::OpenStack.new(@connection_params)
+identity = Fog::Identity::Telefonica.new(@connection_params)
 
 identity.domains
-# =>   <Fog::Identity::OpenStack::V3::Domains
+# =>   <Fog::Identity::Telefonica::V3::Domains
 #     [
-#                   <Fog::Identity::OpenStack::V3::Domain
+#                   <Fog::Identity::Telefonica::V3::Domain
 #         id="default",
 #         description="",
 #         enabled=true,
@@ -410,9 +410,9 @@ List projects (aka tenants):
 
 ```ruby
 identity.projects
-# =>   <Fog::Identity::OpenStack::V3::Projects
+# =>   <Fog::Identity::Telefonica::V3::Projects
 #     [
-#                   <Fog::Identity::OpenStack::V3::Project
+#                   <Fog::Identity::Telefonica::V3::Project
 #         id="008e5537d3424295a03560abc923693c",
 #         domain_id="default",
 #         description="Project 1",
@@ -424,7 +424,7 @@ identity.projects
 
 # On Keystone V2
 identity.tenants
-# =>   <Fog::Identity::OpenStack::V2::Tenants
+# =>   <Fog::Identity::Telefonica::V2::Tenants
 #     [ ... ]
 ```
 
@@ -432,7 +432,7 @@ List users:
 
 ```ruby
 identity.users
-# =>   <Fog::Identity::OpenStack::V3::Users
+# =>   <Fog::Identity::Telefonica::V3::Users
 #     [ ... ]
 ```
 
@@ -445,7 +445,7 @@ user = identity.users.create name: "test",
                              project_id: project_id,
                              email: "test@test.com",
                              password: "test"
-# =>   <Fog::Identity::OpenStack::V3::User
+# =>   <Fog::Identity::Telefonica::V3::User
 #     id="474a59153ebd4e709938e5e9b614dc57",
 #     default_project_id=nil,
 #     description=nil,
@@ -466,7 +466,7 @@ Create/destroy new tenant:
 
 project = identity.projects.create name: "test",
                                    description: "test"
-# =>   <Fog::Identity::OpenStack::V3::Project
+# =>   <Fog::Identity::Telefonica::V3::Project
 #     id="423559128a7249f2973cdb7d5d581c4d",
 #     domain_id="default",
 #     description="test",
@@ -485,7 +485,7 @@ Grant user role on tenant and revoke it:
 
 ```ruby
 role = identity.roles.select{|role| role.name == "_member_"}[0]
-# =>   <Fog::Identity::OpenStack::V3::Role
+# =>   <Fog::Identity::Telefonica::V3::Role
 #     id="9fe2ff9ee4384b1894a90878d3e92bab",
 #     name="_member_",
 #   >
@@ -501,15 +501,15 @@ Set up a project's public gateway (needed for external access):
 
 ```ruby
 
-identity  = Fog::Identity::OpenStack.new(@connection_params)
+identity  = Fog::Identity::Telefonica.new(@connection_params)
 
 tenants = identity.projects.select do |project|
-  project.name == @connection_params[:openstack_project_name]
+  project.name == @connection_params[:telefonica_project_name]
 end
 
 tenant_id = tenants[0].id
 
-neutron = Fog::Network::OpenStack.new(@connection_params)
+neutron = Fog::Network::Telefonica.new(@connection_params)
 
 network = neutron.networks.create name:      "default",
                                   tenant_id: tenant_id
@@ -533,15 +533,15 @@ neutron.add_router_interface router.id, subnet.id
 
 ### Further Reading
 
-* See [the documentation directory](https://github.com/fog/fog-openstack/tree/master/lib/fog/openstack/docs) for more examples.
-* Read the [OpenStack API documentation](http://developer.openstack.org/api-ref.html).
+* See [the documentation directory](https://github.com/fog/fog-telefonica/tree/master/lib/fog/telefonica/docs) for more examples.
+* Read the [Telefonica API documentation](http://developer.telefonica.org/api-ref.html).
 * Also, remember that reading the code itself is the best way to educate yourself on how best to interact with this gem.
 
 ## Development
 
 ```
-$ git clone https://github.com/fog/fog-openstack.git # Clone repository
-$ cd fog-openstack; bin/setup   # Install dependencies from project directory
+$ git clone https://github.com/fog/fog-telefonica.git # Clone repository
+$ cd fog-telefonica; bin/setup   # Install dependencies from project directory
 $ bundle exec rake test   # Run tests
 $ bundle exec rake spec   # Run tests
 $ bin/console   # Run interactive prompt that allows you to experiment (optional)
@@ -564,7 +564,7 @@ In order to release a new version, perform the following steps:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/fog/fog-openstack. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/fog/fog-telefonica. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

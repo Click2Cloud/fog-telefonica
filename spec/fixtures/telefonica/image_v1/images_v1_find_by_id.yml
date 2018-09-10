@@ -52,7 +52,7 @@ http_interactions:
       - deactivated
       X-Image-Meta-Updated_at:
       - '2016-02-25T03:02:05.000000'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-3ff0af92-827c-4e9d-bf1b-da27d93e4acb
       X-Image-Meta-Property-foo:
       - 'bar'
@@ -87,7 +87,7 @@ http_interactions:
       - '79'
       Content-Type:
       - text/plain; charset=UTF-8
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-28577b1e-64c3-463c-b9eb-540fb24ce017
       Date:
       - Fri, 26 Aug 2016 00:36:37 GMT

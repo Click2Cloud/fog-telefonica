@@ -28,7 +28,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '225'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-947889ad-c72e-4a9b-9107-3c00cc7ab5e6
       Date:
       - Tue, 03 May 2016 14:18:04 GMT
@@ -75,7 +75,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '222'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-0341eae8-b4a3-4989-8113-4ead95720435
       Date:
       - Tue, 03 May 2016 14:18:04 GMT
@@ -122,7 +122,7 @@ http_interactions:
       - application/json
       Content-Length:
       - '225'
-      X-Openstack-Request-Id:
+      X-Telefonica-Request-Id:
       - req-08710539-db12-4ea1-a6e5-94335b84ddee
       Date:
       - Tue, 03 May 2016 14:18:04 GMT
