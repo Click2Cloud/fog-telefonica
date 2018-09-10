@@ -248,6 +248,16 @@ module Fog
           true
         end
 
+        def lock
+          requires :id
+          service.lock_server(id)
+        end
+
+        def unlock
+          requires :id
+          service.unlock_server(id)
+        end
+
         def stop
           requires :id
           service.stop_server(id)

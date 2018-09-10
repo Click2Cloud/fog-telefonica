@@ -108,6 +108,9 @@ module Fog
       request :shelve_server
       request :unshelve_server
       request :shelve_offload_server
+      request :lock_server
+      request :unlock_server
+
 
       # Server Extenstions
       request :get_console_output
