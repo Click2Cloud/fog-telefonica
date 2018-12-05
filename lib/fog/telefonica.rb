@@ -587,8 +587,9 @@ module Fog
       version_cache = "#{uri}#{supported_versions}"
       return @version[version_cache] if @version && @version[version_cache]
       connection = Fog::Core::Connection.new("#{uri.scheme}://#{uri.host}:#{uri.port}", false, connection_options)
+      # TODO(Aniket) added 404 in expects for muti-region support
       response = connection.request(
-        :expects => [200, 204, 300],
+        :expects => [200, 204, 300, 404],
         :headers => {'Content-Type' => 'application/json',
                      'Accept'       => 'application/json',
                      'X-Auth-Token' => auth_token},
